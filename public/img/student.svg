@@ -1,0 +1,39 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100">
+	<title>calendar-svg</title>
+	<defs>
+		<image  width="43" height="57" id="img1" href="data:image/png;base64,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"/>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m39.25 36.25h27.5v27.5h-27.5z"/>
+		</clipPath>
+		<image aria-label="Real Time Student"  width="198" height="18" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAAASCAMAAAA36lFWAAAAAXNSR0IB2cksfwAAAFdQTFRFAAAAWFhYWFhYWVlZWFhYUFBQWlpaWVlZWFhYWVlZWVlZV1dXWVlZWFhYWFhYWVlZWFhYWFhYWVlZWFhYWVlZWFhYWVlZWVlZWFhYWFhYWVlZWVlZV1dX6zpSnAAAAB10Uk5TAEAgUH8QMD+w/+9vwPCgz9+AkNBwn6+Pv2DgX08khT+sAAADRElEQVR4nK1X2WKrIBBlERArxjWNtv//nXeYGRCbNPG2nYeicZZzhsNSIU6bVN980NV3X35rprJnXa2L9tq99s2XmBTnff1f4HRVVS7hfDtb87HZStPoyZrqRUDrfY71u8FEBN+9hF4UvmBcj40bvJfnar7wkBnQeC5AHGgEoGGeIbmzKfXNiL+lMQihZmos/uLM7maz3MqURkoImKSU0dW49LukJ1Vq1B4FqyFOCdV5bw80FFe3XNw4gLHXtK5Yf8rlikcaQozeR5WZJXbqyjFzv8vtS2cgruXHQBNJoe/G3gqN6pih13scAF8Rl0VK0S7EDtnOvlEpV7OmmkNTZMGUfjEEmnWUaED6GcIvPOPIo+P5X57T4CdWy7WhcSZUZGtJI6uXv4ZiWnhss2pLHMhjLURZ02O906gxHgJqayFXxwHdMAZq1Csa0M8wjltM2w6QrRe4iIJWesuCpXVVJdVKqDfjRn6kgZXXIRCNqEOt1oDblsqguihu6B0qG+AszlVXcEVEG3Oi9q7Us+EEDVaLpxZMiJyVqnlu0KIQmkXluZGHBxprCrBEo6YurPhpptm01Kf7naojTj1s6tUNA5mTPEejIyA1sSE4EBPTVTzjLKWAa+gZDYjDCZuw5kZZFsySHDeCc0dDlS/4kYGepNFS/qEcdonPRahZt7S/f09D7CB3UHJ3bO9oDDjtHb1sbbRO/xUNTNfORhws7e8naQTOIl7QELQKpS8PZAaqf0VDPLbx4J0XIGdJoqL4UF5JntNYiQAvnAQPO9b+nEbHm2Rh600/ogHpbjCYBqt0VNLS6mz5TDlBg6cD4m9w4XtvYq0aF3w8zH5KA5yaD+c++kuOA7fl030Q3Oh2dW+W6t+qqs/i9kv13uQW95/OvfXdPQ3AWDm4YScaM23EU7EkbaDT6ec08sE15TgdykWv8lc+0fGSlo9nP6G2Upb6nsbKH1SghIZG08UyG526Nu4ok6SSHZ622cA/baJ0wx18MNiOwJs84tFb2syTqbKCWANPtpDYwZoPlPUQh29hLPIDHDwNkHAA7SjWnUn6k8X/R1ba+Id+P+42+72Wn6x6MEB+eXeHtWWq/UXJ8vdjHAI5JM6+0e8fhIM60HuDx8cAAAAASUVORK5CYII="/>
+		<image aria-label="	  Performence"  width="138" height="18" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAASCAMAAACzbLZ4AAAAAXNSR0IB2cksfwAAAFdQTFRFAAAAWFhYWVlZWFhYWVlZWlpaWVlZUFBQWFhYWVlZWFhYWFhYWFhYWVlZWVlZWFhYWVlZWFhYWFhYWVlZWVlZWFhYWFhYWVlZWVlZWFhYWVlZV1dXV1dXbRBmNwAAAB10Uk5TAGCvv18wPxDQ/0Ag8MDvgFCgsOBw35/Pj3+Qb08o7Y/rAAACaklEQVR4nLWV23alIAyGcVtETuK53Xa//3NODiDoWKdrVpsLNRD+fIaIQnzPqkddv30z9r9NNmjqPqjVaOaXSTTbw94EVVo779u7kB8wE1F0d5MoaN3/LkZECXD1Wg88IBuZZxU7Y7E5tmmK5bax6UHG5cUrmdI5CeeptIRRhJq0RndeoEBLLEHowFlFz2V7x6Ee5/XKraU+0KlQ7Z2XVThdc0r17LLDWt2TF9oHCcp9YjEZRXhCGeJuEQs7Tsw6PlDTkC0qrgHzIN3x8FrudRsdKQphep8U3h0zHlDAaXtbOd0pamgXQgBeCaqzAX0La4Z+nng3gWuCAEt6bRgc8g4BZjdB/TUaC9eaX1hvYYs1HEh50K3AiseMOwrKUk9Idnq6VnE3feyVmbMoRyXMzQyolmRxwFKhxKQdlg7SK0o+s/AIN03hInah5QmDKEtdL6wCL/QEWwkv5F5NKFu8s+8piyDtCQk1DzAo6KJWnUJjoN9ZyVyRMX3MrmLcvHUXKOkeDvoxAy3PbZe17AnFFCg5iqriYcN7FSc82Sx+AMWR1NiLWxS3Z0xtm8q1P1+hDOcNukXxWevLDYJt3IMOKJ7b9kuU1LYdKd+j8Gd4hVK2bZnxgAKNvLw1zecyXKPgx7y+Phf+mO9RoMXrV9M8u/kvlAEPu+dHV3PGF2bcTij7geOvUfYjblL/RFHxiCP5I4p1+dBMGUcaTqcH5ZowZFOcNpUx8BkB1rd0jpG3kRZaS8cF3IhoxLMLWAJmnAIPTWWgHel95CmjLX5SFGbSgMz/Mln+4/Znk5pBmfKWx+WuFYdSBDxkmRj1B8C/LaVlAgrEAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { opacity: .8;fill: #ffffff } 
+		.s1 { display: none;fill: #23bdee } 
+		.s2 { fill: #ffffff } 
+		.s3 { display: none;fill: #ffffff } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m0 20c0-11 9-20 20-20h260c11 0 20 9 20 20v60c0 11-9 20-20 20h-260c-11 0-20-9-20-20z"/>
+	</g>
+	<use id="Layer 1" href="#img1" x="26" y="27"/>
+	<path id="Layer" class="s1" d="m28 33c0-4.4 3.6-8 8-8h34c4.4 0 8 3.6 8 8v34c0 4.4-3.6 8-8 8h-34c-4.4 0-8-3.6-8-8z"/>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer" style="display: none">
+			<path id="Layer" class="s2" d="m46.1 36.3c-0.5 0-1 0.4-1 0.9v2h2v-2c0-0.5-0.4-0.9-1-0.9z"/>
+			<path id="Layer" class="s2" d="m59.8 36.3c-0.5 0-0.9 0.4-0.9 1v1.9h2l-0.1-2c0-0.5-0.4-1-1-0.9z"/>
+			<path id="Layer" class="s2" d="m47.1 50h-2c-0.5 0-0.9 0.4-0.9 1 0 0.5 0.4 1 0.9 1h2c0.5 0 1-0.5 1-1 0-0.6-0.5-1-1-1z"/>
+			<path id="Layer" class="s2" d="m54 50h-2c-0.5 0-1 0.4-1 1 0 0.5 0.5 1 1 1h2c0.5 0 1-0.5 1-1 0-0.6-0.5-1-1-1z"/>
+			<path id="Layer" class="s2" d="m60.9 50h-2c-0.5 0-1 0.4-1 1 0 0.5 0.5 1 1 1h2c0.5 0 0.9-0.5 0.9-1 0-0.6-0.4-1-0.9-1z"/>
+			<path id="Layer" class="s2" d="m47.1 53.9h-2c-0.5 0-0.9 0.5-0.9 1 0 0.6 0.4 1 0.9 1h2c0.5 0 1-0.4 1-1 0-0.5-0.5-1-1-1z"/>
+			<path id="Layer" class="s2" d="m54 53.9h-2c-0.5 0-1 0.5-1 1 0 0.6 0.5 1 1 1h2c0.5 0 1-0.4 1-1 0-0.5-0.5-1-1-1z"/>
+			<path id="Layer" class="s2" d="m60.9 53.9h-2c-0.5 0-1 0.5-1 1 0 0.6 0.5 1 1 1h2c0.5 0 0.9-0.4 0.9-1 0-0.5-0.4-1-0.9-1z"/>
+			<path id="Layer" class="s2" d="m47.1 57.9h-2c-0.5 0-0.9 0.4-0.9 0.9 0 0.6 0.4 1 0.9 1h2c0.5 0 1-0.4 1-1 0-0.5-0.5-0.9-1-0.9z"/>
+			<path id="Layer" class="s2" d="m54 57.9h-2c-0.5 0-1 0.4-1 0.9 0 0.6 0.5 1 1 1h2c0.5 0 1-0.4 1-1 0-0.5-0.5-0.9-1-0.9z"/>
+			<path id="Layer" class="s3" d="m60.9 57.9h-2c-0.5 0-1 0.4-1 0.9 0 0.6 0.5 1 1 1h2c0.5 0 0.9-0.4 0.9-1 0-0.5-0.4-0.9-0.9-0.9z"/>
+		</g>
+	</g>
+	<use id="Real Time Student" href="#img2" x="87" y="32"/>
+	<use id="	  Performence" href="#img3" x="85" y="58"/>
+</svg>
