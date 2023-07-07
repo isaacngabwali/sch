@@ -62,9 +62,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->    
-    <script src="assets/js/jquery-3.5.0.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>.main-nav__main-navigation {
+  /* Existing styles */
+  display: none;
+}
+
+.main-nav__main-navigation.active {
+  display: block;
+}</script>
     <script src="assets/js/jquery-3.5.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bootstrap-select.min.js"></script>
@@ -81,6 +86,12 @@
     <script src="assets/js/swiper.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script>
     	AOS.init();
     </script>

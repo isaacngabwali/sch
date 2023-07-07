@@ -1,63 +1,73 @@
-import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import React, { useState, useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "../components/Styles/main.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
-import ContactUs from './ContactUs'
-import Home from './Home'
-import Faq from './Faq';
-import Price from './Pricing';
-import Resource from './News';
-import Fee from './fee';
+import ContactUs from "./ContactUs";
+import Home from "./Home";
+import Faq from "./Faqpage";
+import Price from "./Pricing";
+import Resource from "./News";
+import Fee from "./fee";
+//
 
 function Header() {
+  const navRef = useRef();
 
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
-    <><Router>
+    <Router>
       <div className="page-wrapper">
-        <header className="site-header-one stricky">
-          <div className="container-fluid">
-            <div className="site-header-one__logo">
-              <a href="/">
-                <img src="img/sx.png" width={129} alt="" />
-              </a>
-              <span className="side-menu__toggler"><i className="fa fa-bars" /></span>
-            </div>
-            <div className="main-nav__main-navigation">
-              <ul className="main-nav__navigation-box">
-                <li>
-                  <a href="/">Home</a>
-                </li>
-                <li><a href="/Price">Pricing</a></li>
-                <li><a href="/Resource">Resource Centre</a></li>
-                <li><a href="/Faq">Faq</a></li>
-                <li><a href="/contactUs">Contact</a></li>
-              </ul>
-            </div>
-            <div className="main-nav__right">
-              <a href="#" className="thm-btn main-nav__btn-two"><span>Book Demo</span></a>
-            </div>
+        <header>
+          <div className="site-header-one__logo">
+            <a href="/">
+              <img src="img/sx.png" width={129} alt="" />
+            </a>
           </div>
+          <nav ref={navRef}>
+            <a href="/">Home</a>
+            <a href="/Price">Pricing</a>
+            <a href="/Resource">Resource Centre</a>
+            <a href="/Faq">Faq</a>
+            <a href="/contactUs">Contact</a>
+            <div className="main-nav__right">
+              <a href="#" className="thm-btn main-nav__btn-two">
+                <span>Book Demo</span>
+              </a>
+            </div>
+            <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+              <FaTimes />
+            </button>
+          </nav>
+          <button className="nav-btn" onClick={showNavbar}>
+            <FaBars />
+          </button>
         </header>
-
       </div>
       <Switch>
-        <Route path="/Faq"> <Faq /></Route>
-        <Route path="/Price"><Price /></Route>
-        <Route path="/Resource"> <Resource /></Route>
-        <Route path="/contactUs"> <ContactUs /> </Route>
-        <Route path="/fee"> <Fee /> </Route>
-        <Route path="/"><Home /> </Route>
+        <Route path="/Faq">
+          <Faq />
+        </Route>
+        <Route path="/Price">
+          <Price />
+        </Route>
+        <Route path="/Resource">
+          <Resource />
+        </Route>
+        <Route path="/contactUs">
+          <ContactUs />
+        </Route>
+        <Route path="/fee">
+          <Fee />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
       </Switch>
-    </Router></>
+    </Router>
   );
 }
 
 export default Header;
-
-
- 
